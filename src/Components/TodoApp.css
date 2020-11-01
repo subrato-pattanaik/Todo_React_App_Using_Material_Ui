@@ -24,7 +24,7 @@
   color: aliceblue;
   height: 100vh;
   box-sizing: border-box;
-  padding: 80px;
+  padding: 20px 50px 20px 50px;
 }
 
 .content-paper {
@@ -46,4 +46,26 @@
 .newBtn.MuiButton-containedPrimary:hover {
   background-color: #0b2338;
   color: white;
+}
+
+.tasklist_content {
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.item_span {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }

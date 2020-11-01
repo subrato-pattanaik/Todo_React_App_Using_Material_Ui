@@ -10,6 +10,7 @@ import {
 } from "@material-ui/core";
 import AddIcon from "@material-ui/icons/Add";
 import "./TodoApp.css";
+import TaskList from "./TaskList";
 
 function TodoAppForm({
   task,
@@ -17,6 +18,8 @@ function TodoAppForm({
   handleTask,
   handlePriority,
   handleSubmit,
+  tasklist,
+  handleDelete,
 }) {
   return (
     <div className="content">
@@ -65,6 +68,8 @@ function TodoAppForm({
             <AddIcon />
           </Button>
         </form>
+
+        <TaskList tasklist={tasklist} handleDelete={handleDelete} />
       </Paper>
     </div>
   );
