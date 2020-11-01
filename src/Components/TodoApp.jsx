@@ -36,14 +36,13 @@ function TodoApp() {
             task: Task,
             priority: Priority,
           };
-
-          console.log(item);
           setTaskList([...TaskList, item]);
         } else alert("Cannot add more than 9 task");
       }
     },
     [Task, Priority, TaskList]
   );
+
   const handleDelete = (id) => {
     const array = TaskList.filter((task) => task.id !== id);
     setTaskList(array);
