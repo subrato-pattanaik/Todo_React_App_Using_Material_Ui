@@ -1,0 +1,49 @@
+.paper {
+  text-align: center;
+  background: #09131c;
+  color: aliceblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.todoImage {
+  height: 200px;
+  width: 300px;
+  background-image: url(./image.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.content {
+  background: #27ab9e;
+  color: aliceblue;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 80px;
+}
+
+.content-paper {
+  height: 100%;
+  width: 100%;
+}
+
+.content-paper .form-container {
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.newBtn.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #1ba093;
+}
+.newBtn.MuiButton-containedPrimary:hover {
+  background-color: #0b2338;
+  color: white;
+}
